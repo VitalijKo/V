@@ -1,0 +1,81 @@
+input {
+    height: 5vh;
+    outline: none;
+    border-radius: 2vh;
+    border-style: inset;
+    border-color: var(--primary-color);
+    padding-inline: 5px;
+}
+
+.user-image {
+    width: 30vh;
+    height: 30vh;
+    border-radius: 3vh;
+}
+
+.user-info {
+    display: flex;
+    height: 30vh;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.edit-btn {
+    width: auto;
+    height: 5vh;
+    min-width: 20vh;
+    max-width: 30vh;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 2vh;
+    border-style: none;
+    cursor: pointer;
+}
+
+.sign-up {
+    display: flex;
+    align-items: center;
+    gap: 1.5vh;
+}
+
+.sidebar {
+    display: flex;
+    width: 30vh; 
+    height: auto;
+    flex-direction: column; 
+    justify-content: left;
+}
+
+.add-vit {
+    display: flex;
+    height: 15vh;
+    flex-direction: row;
+    border-width: 2px;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: black;
+    justify-content: space-between;
+    padding: 1vh;
+}
+
+.input-vit {
+    width: 90%;
+    border-style: none;
+    word-wrap: break-word;
+    outline: none;
+    resize: none;
+}
+
+.add-btn {
+    width: 15vh;
+    height: 5vh;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 1vh;
+    border-style: none;
+    font-size: 1.2rem;
+    place-self: center;
+    cursor: pointer;
+}

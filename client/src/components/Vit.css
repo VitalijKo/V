@@ -1,0 +1,38 @@
+.Vit {
+    display: flex;
+    width: calc(100%-2vh);
+    height: auto;
+    flex-direction: column;
+    border-width: 2px;
+    border-radius: 2vh;
+    border-style: groove;
+    border-color: var(--primary-color);
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2vh;
+    padding-top: 0.5vh;
+}
+
+h2, h3 {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.likes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1vh;
+    margin-top: 4vh;
+}
+
+.like {
+    width: 4vh;
+    height: 4vh;
+}
+
+.vit-image {
+    width: 6vh;
+    height: 6vh;
+}

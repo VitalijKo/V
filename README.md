@@ -1,2 +1,2 @@
-# V
+# VitCoin 2
  
